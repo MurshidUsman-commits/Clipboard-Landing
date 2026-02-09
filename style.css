@@ -2,7 +2,6 @@ body {
     font-size: 19px;
     font-family: "Bai Jamjuree";
 }
-
 .hero-bg-img {
     background-image: url("./images/bg-header-desktop.png");
     background-size: cover;
@@ -14,12 +13,10 @@ body {
     align-items: center;
     gap: 48px;
 }
-
 .history {
     font-size: 40px;
     font-weight: bolder;
 }
-
 .subtitle {
     text-align: center;
     color: #777;
@@ -31,7 +28,6 @@ body {
     justify-content: center;
     gap: 10px;
 }
-
 .btn {
     padding: 12px 27px;
     border: none;
@@ -55,4 +51,8 @@ body {
 }
 .mac-btn:hover{
     background-color: hsl(233, 96%, 72%);
+}
+.mac-feature{
+    position: relative;
+    right: 60px;
 }
