@@ -2,43 +2,69 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frontend Mentor | Clipboard landing page</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Gabarito:wght@400..900&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Clipboard landing page</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Gabarito:wght@400..900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-        <!-- Hero Feature -->
-        <div>
-            <div class="hero-bg-img">
-                <div><img src="./images/logo.svg"></div>
-                <div class="history">
-                    <span>A history of everything you copy</span>
-                </div>
-            </div>
-            <div class="subtitle">
-                <p> Clipboard allows you to track and organize everything you copy.
-                    Instantly<br>access your clipboard on all your devices.</p>
-            </div>
-            <div class="buttons">
-                <button class="ios-btn btn">Download for iOS</button>
-                <button class="mac-btn btn">Download for Mac</button>
-            </div>
+  <div class="container">
+    <!-- Hero Feature -->
+    <header>
+      <div class="hero-header">
+        <div><img src="./images/logo.svg" class="logo"></div>
+        <div class="history txt-center">
+          <span>A history of everything you copy</span>
         </div>
-        <div>   
-            <div class="mac-feature" ><img src="./images/image-computer.png" ></div>
-            <div>
+      </div>
+    </header>
+    <section class="hero-section">
 
-            </div>
+      <div class="subtitle txt-center primary-clr">
+        <span> Clipboard allows you to track and organize everything you copy.
+          Instantly<br>access your clipboard on all your devices.</span>
+      </div>
+      <div class="buttons">
+        <button class="ios-btn btn">Download for iOS</button>
+        <button class="mac-btn btn">Download for Mac</button>
+      </div>
+    </section>
+    <section>
+      <div class="snippet">
+        <div class="txt-center snippet-txt-1"><span>Keep track of your snippets</span></div>
+        <div class="txt-center snippet-txt-2 primary-clr"><span> Clipboard instantly stores any item you copy in the
+            cloud,
+            meaning you can access <br> your snippets immediately on all your
+            devices. Our Mac and iOS apps will help you<br> organize everything.</span></div>
+      </div>
+
+      <div class="mac-feature">
+        <div ><img src="./images/image-computer.png" class="mac-feature-img"></div>
+        <div>
+          <div><span class="mac-heading">Quick Search</span>
+            <span class="primary-clr mac-txt">Easily search your snippets by content, category, web address,
+              application,
+              and more.
+            </span>
+          </div>
+          <div><span class="mac-heading">iCloud Sync</span>
+            <span class="primary-clr mac-txt">Instantly saves and syncs snippets across all your devices.
+            </span>
+          </div>
+          <div><span class="mac-heading">Complete History</span>
+            <span class="primary-clr mac-txt">Retrieve any snippets from the first moment you started using the app.
+            </span>
+          </div>
         </div>
-    </div>
+      </div>
+    </section>
+  </div>
 </body>
 
 </html>
