@@ -1,0 +1,64 @@
+body {
+    font-size: 19px;
+    font-family: "Bai Jamjuree";
+    margin: 1px 0 0 0;
+}
+
+.snippet {
+    display: flex;
+    flex-direction: column;
+    margin: 70px;
+    gap: 15px;
+}
+
+.snippet-txt-1 {
+    font-weight: 600;
+    font-size: 32px;
+    color: rgb(80, 78, 78);
+}
+
+.snippet-txt-2 {
+    line-height: 25px;
+    font-size: 17px;
+    max-width: 49%;
+    margin: auto;
+}
+
+.mac-feature-img {
+    position: relative;
+    right: 60px;
+    height: auto;
+    width: 650px;
+}
+
+.mac-heading {
+    font-weight: 600;
+    line-height: 0px;
+    color: rgb(92, 90, 90);
+    font-size: 23px;
+}
+
+.mac-txt {
+    font-size: 17px;
+    max-width: 55%;
+    line-height: 30px;
+}
+
+.mac-feature {
+    display: flex;
+    gap: 54px;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.primary-clr {
+    color: #777;
+}
+.mac-box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+}

@@ -1,12 +1,8 @@
 body {
     font-size: 19px;
     font-family: "Bai Jamjuree";
-}
-
-* {
     margin: 1px 0 0 0;
 }
-
 .logo {
     width: 70%;
     height: auto;
@@ -74,35 +70,4 @@ body {
 
 .mac-btn:hover {
     background-color: hsl(233, 96%, 72%);
-}
-.snippet{
-    display: flex;
-    flex-direction: column;
-    margin: 70px;
-    gap: 15px;
-}
-.snippet-txt-1{
-    font-weight: 600;
-    font-size: 29px;    
-    color: rgb(102, 99, 99);
-}
-.snippet-txt-2{
-    line-height: 25px;
-    font-size: 15px;
-}
-.mac-feature-img {
-    position: relative;
-    right: 60px;
-    height: auto;
-    width: 650px;
-}
-.mac-heading{
-    font-weight: 600;
-}
-.mac-txt{
-    font-size: 15px;
-}
-.mac-feature{
-    display: flex;
-    gap: 30px;
 }
