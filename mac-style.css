@@ -11,11 +11,7 @@ body {
     gap: 15px;
 }
 
-.snippet-txt-1 {
-    font-weight: 600;
-    font-size: 32px;
-    color: rgb(80, 78, 78);
-}
+
 
 .snippet-txt-2 {
     line-height: 25px;
