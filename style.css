@@ -7,33 +7,15 @@ body {
     width: 70%;
     height: auto;
 }
-
 .txt-center {
     text-align: center;
 }
-
 .primary-txt-clr {
     color: hsl(210, 10%, 33%)
 }
 .secondary-txt-clr {
     color: hsl(201, 11%, 66%)
 }
-
-.section-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-
-.title {
-    font-weight: 600;
-    font-size: 32px;
-}
-.description{
-    text-align: center;
-}
-
 .hero-header {
     background-image: url("./images/bg-header-desktop.png");
     background-size: cover;
@@ -92,4 +74,35 @@ body {
 
 .mac-btn:hover {
     background-color: hsl(233, 96%, 72%);
+}
+.section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    font-size: 700;
+    color: hsl(210, 10%, 33%);
+}
+.title {
+    font-weight: 600;
+    font-size: 32px;
+}
+.description{
+    text-align: center;
+}
+.feature-container{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+.feature-heading{
+    font-weight: 590;
+    color: hsl(210, 10%, 33%);
+    font-size: larger;
+}
+.feature-description{
+    line-height: 28px;
+    max-width: 65%;
+    color: hsl(201, 11%, 66%);
+    font-size: smaller;   
 }
