@@ -1,21 +1,15 @@
 body {
     font-size: 19px;
     font-family: "Bai Jamjuree";
+     margin: 1px 0 0 0;
 }
-
-* {
-    margin: 1px 0 0 0;
-}
-
 .logo {
     width: 70%;
     height: auto;
 }
-
 .txt-center {
     text-align: center;
 }
-
 .hero-header {
     background-image: url("./images/bg-header-desktop.png");
     background-size: cover;
