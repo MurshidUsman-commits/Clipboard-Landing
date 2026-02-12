@@ -23,13 +23,15 @@ body {
 }
 .history {
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 700;
     position: relative;
-    color: rgb(82, 80, 80);
     top: 75px;
 }
-.primary-clr{
-    color: #777;
+.primary-txt-clr{
+    color: hsl(210, 10%, 33%);
+}
+.secondary-txt-clr{
+    color: hsl(201, 11%, 66%);
 }
 .subtitle {
     margin-top: 10px;
