@@ -1,0 +1,7 @@
+.customers{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-basis: 20%;
+    padding: 100px;
+}
