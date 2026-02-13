@@ -1,15 +1,18 @@
 body {
     font-size: 19px;
     font-family: "Bai Jamjuree";
-     margin: 1px 0 0 0;
+    margin: 1px 0 0 0;
 }
+
 .logo {
     width: 70%;
     height: auto;
 }
+
 .txt-center {
     text-align: center;
 }
+
 .hero-header {
     background-image: url("./images/bg-header-desktop.png");
     background-size: cover;
@@ -19,25 +22,40 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
+
 .history {
     font-size: 40px;
     font-weight: 700;
     position: relative;
     top: 75px;
 }
-.primary-txt-clr{
+
+.primary-txt-clr {
     color: hsl(210, 10%, 33%);
 }
-.secondary-txt-clr{
+
+.secondary-txt-clr {
     color: hsl(201, 11%, 66%);
 }
-.subtitle {
-    margin-top: 10px;
-    font-size: 18px;
-}
 
+.section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    font-size: 700;
+    color: hsl(210, 10%, 33%);
+}
+.hero-container{
+    position: relative;
+    bottom: 40px;
+}
+.title{
+    font-weight: 605;
+    font-size: 32px;
+}
 .buttons {
     display: flex;
     justify-content: center;
