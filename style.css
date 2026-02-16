@@ -3,34 +3,10 @@ body {
     font-family: "Bai Jamjuree";
     margin: 1px 0 0 0;
 }
-
-.logo {
-    width: 70%;
-    height: auto;
-}
-
 .txt-center {
     text-align: center;
 }
 
-.hero-header {
-    background-image: url("./images/bg-header-desktop.png");
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.history {
-    font-size: 40px;
-    font-weight: 700;
-    position: relative;
-    top: 75px;
-}
 
 .primary-txt-clr {
     color: hsl(210, 10%, 33%);
@@ -48,44 +24,14 @@ body {
     font-size: 700;
     color: hsl(210, 10%, 33%);
 }
-.hero-container{
-    position: relative;
-    bottom: 40px;
-}
 .title{
     font-weight: 605;
-    font-size: 32px;
+    font-size: 37px;
 }
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-.btn {
-    padding: 15px 30px;
-    border: none;
-    border-radius: 24px;
-    cursor: pointer;
-    margin-top: 35px;
-    color: rgb(243, 240, 240);
-    font-size: 15px;
+.description{
+    color: hsl(201, 11%, 66%);
+    max-width: 50%;
 }
 
-.ios-btn {
-    background-color: hsl(171, 66%, 44%);
-    box-shadow: 0 0 12px hsla(171, 66%, 44%, 0.6);
-}
 
-.ios-btn:hover {
-    background-color: hsl(171, 59%, 52%);
-}
 
-.mac-btn {
-    background-color: hsl(233, 100%, 69%);
-    box-shadow: 0 0 12px hsla(233, 100%, 69%, 0.6);
-}
-
-.mac-btn:hover {
-    background-color: hsl(233, 96%, 72%);
-}
