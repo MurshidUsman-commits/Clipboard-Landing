@@ -1,0 +1,5 @@
+.mobile-container{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
