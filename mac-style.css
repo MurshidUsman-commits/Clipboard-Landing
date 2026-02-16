@@ -13,7 +13,7 @@
     display: flex;
     gap: 54px;
 }
-.mac-box{
+.tracking-features{
     display: flex;
     flex-direction: column;
     gap: 54px;
@@ -23,4 +23,20 @@
     display: flex;
     flex-direction: column;
     gap: 78px;
+}
+.feature-container{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+.feature-heading{
+    font-weight: 590;
+    color: hsl(210, 10%, 33%);
+    font-size: larger;
+}
+.feature-description{
+    line-height: 28px;
+    max-width: 65%;
+    color: hsl(201, 11%, 66%);
+    font-size: smaller;   
 }
