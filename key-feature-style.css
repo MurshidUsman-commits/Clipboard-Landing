@@ -5,13 +5,13 @@
 }
 
 .keyfeature-title {
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 600;
   color: hsl(210, 10%, 33%);
 }
 
 .keyfeature-description {
-  font-size: large;
+  font-size: medium;
   color: hsl(201, 11%, 66%);
 }
 
