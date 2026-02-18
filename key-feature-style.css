@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.keyfeature-title {
+  font-size: 25px;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+.keyfeature-description {
+  font-size: large;
+  color: hsl(201, 11%, 66%);
+}
+
+.keyfeatures {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.keyfeature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px;
+
+}
+
+.block-width {
+  max-width: 100%;
+  max-height: fit-content;
+}
+
+.keyfeature h3 {
+  line-height: 2.5;
+}
+
+.keyfeature div {
+  line-height: 3.5;
+}
+
+.keyfeature p {
+  line-height: 1.7;
+  max-width: 100%;
+}
