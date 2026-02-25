@@ -3,78 +3,19 @@ body {
     font-family: "Bai Jamjuree";
     margin: 1px 0 0 0;
 }
-.logo {
-    width: 70%;
-    height: auto;
-}
 .txt-center {
     text-align: center;
 }
+
+
 .primary-txt-clr {
-    color: hsl(210, 10%, 33%)
+    color: hsl(210, 10%, 33%);
 }
+
 .secondary-txt-clr {
-    color: hsl(201, 11%, 66%)
-}
-.hero-header {
-    background-image: url("./images/bg-header-desktop.png");
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-}
-.history {
-    font-size: 40px;
-    font-weight: 500;
-    position: relative;
-    color: rgb(82, 80, 80);
-    top: 75px;
-}
-.primary-clr{
-    color: #777;
-}
-.subtitle {
-    margin-top: 10px;
-    font-size: 18px;
+    color: hsl(201, 11%, 66%);
 }
 
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-.btn {
-    padding: 15px 30px;
-    border: none;
-    border-radius: 24px;
-    cursor: pointer;
-    margin-top: 35px;
-    color: rgb(243, 240, 240);
-    font-size: 15px;
-}
-
-.ios-btn {
-    background-color: hsl(171, 66%, 44%);
-    box-shadow: 0 0 12px hsla(171, 66%, 44%, 0.6);
-}
-
-.ios-btn:hover {
-    background-color: hsl(171, 59%, 52%);
-}
-
-.mac-btn {
-    background-color: hsl(233, 100%, 69%);
-    box-shadow: 0 0 12px hsla(233, 100%, 69%, 0.6);
-}
-
-.mac-btn:hover {
-    background-color: hsl(233, 96%, 72%);
-}
 .section-header {
     display: flex;
     flex-direction: column;
@@ -83,27 +24,11 @@ body {
     font-size: 700;
     color: hsl(210, 10%, 33%);
 }
-.title {
+.title{
     font-weight: 605;
-    font-size: 32px;
+    font-size: 37px;
 }
 .description{
-    text-align: center;
-    font-size: medium;
-}
-.feature-container{
-    display: flex;
-    flex-direction: column;
-    gap: 11px;
-}
-.feature-heading{
-    font-weight: 590;
-    color: hsl(210, 10%, 33%);
-    font-size: larger;
-}
-.feature-description{
-    line-height: 28px;
-    max-width: 65%;
     color: hsl(201, 11%, 66%);
-    font-size: smaller;   
+    max-width: 50%;
 }
