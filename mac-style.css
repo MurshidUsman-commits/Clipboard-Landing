@@ -1,7 +1,4 @@
-.description{
-    max-width: 55%;
-    line-height: 28px;
-}
+
 .mac-feature-img {
     position: relative;
     right: 60px;
@@ -35,7 +32,6 @@
     font-size: larger;
 }
 .feature-description{
-    line-height: 28px;
     max-width: 65%;
     color: hsl(201, 11%, 66%);
     font-size: smaller;   
