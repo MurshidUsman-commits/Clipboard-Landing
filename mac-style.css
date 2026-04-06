@@ -1,25 +1,31 @@
 
 .mac-feature-img {
     position: relative;
-    right: 60px;
-    height: auto;
-    width: 770px;
+    width: 50%;
+}
+
+.mac-feature-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 110%;
 }
 
 .mac-container {
     display: flex;
-    gap: 54px;
+    flex-direction: row;
 }
 .tracking-features{
     display: flex;
     flex-direction: column;
+    width: 50%;
+    box-sizing: border-box;
     gap: 54px;
-    margin-top: 80px;
+    padding: 48px;
 }
 .snippet-container{
     display: flex;
     flex-direction: column;
-    gap: 78px;
 }
 .feature-container{
     display: flex;
