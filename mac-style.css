@@ -1,5 +1,4 @@
-
-.mac-feature-img {
+.feature-img-container{
     position: relative;
     width: 50%;
 }
@@ -21,7 +20,7 @@
     width: 50%;
     box-sizing: border-box;
     gap: 54px;
-    padding: 48px;
+    padding: 96px;
 }
 .snippet-container{
     display: flex;
@@ -34,11 +33,9 @@
 }
 .feature-heading{
     font-weight: 590;
-    color: hsl(210, 10%, 33%);
     font-size: larger;
 }
 .feature-description{
-    max-width: 65%;
-    color: hsl(201, 11%, 66%);
+    max-width: 21rem;
     font-size: smaller;   
 }
