@@ -24,6 +24,7 @@ body {
     align-items: center;
     gap: 19px;
     font-size: 700;
+    margin-bottom: 72px;
 }
 
 .title {
@@ -33,4 +34,10 @@ body {
 
 .description {
     max-width: 47rem;
+}
+@media (max-width:768px) {
+    body{
+        padding: 0 20px;
+    }
+
 }

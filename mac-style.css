@@ -1,4 +1,4 @@
-.feature-img-container{
+.feature-img-container {
     position: relative;
     width: 50%;
 }
@@ -14,7 +14,8 @@
     display: flex;
     flex-direction: row;
 }
-.tracking-features{
+
+.tracking-features {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -22,20 +23,64 @@
     gap: 54px;
     padding: 96px;
 }
-.snippet-container{
+
+.snippet-container {
     display: flex;
     flex-direction: column;
 }
-.feature-container{
+
+.feature-container {
     display: flex;
     flex-direction: column;
     gap: 11px;
 }
-.feature-heading{
+
+.feature-heading {
     font-weight: 590;
     font-size: larger;
 }
-.feature-description{
+
+.feature-description {
     max-width: 21rem;
-    font-size: smaller;   
+    font-size: smaller;
+}
+
+@media (max-width:768px) {
+    body{
+        font-size: 14px;
+    }
+    .mac-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-img-container {
+        width: 95%;
+        position: static;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mac-feature-img {
+        position: static;
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .tracking-features {
+        width: 14rem;
+        text-align: center;
+        padding: 48px 0 0 0;
+        gap: 40px;
+    }
+
+    .feature-description {
+        max-width: 100%;
+    }
+
+    .title{
+        font-size: 24px;
+        text-align: center;
+        max-width: 100%;
+    }
 }
