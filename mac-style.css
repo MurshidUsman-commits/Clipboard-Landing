@@ -46,16 +46,13 @@
 }
 
 @media (max-width:768px) {
-    body{
-        font-size: 14px;
-    }
     .mac-container {
         flex-direction: column;
         align-items: center;
     }
 
     .feature-img-container {
-        width: 95%;
+        width: 100%;
         position: static;
         display: flex;
         justify-content: center;
