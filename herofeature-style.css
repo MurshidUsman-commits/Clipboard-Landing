@@ -1,27 +1,28 @@
-.logo{
-    width: 120px;
-    height: auto;
-}
-.hero-header {
+
+.hero-container {
     background-image: url("./images/bg-header-desktop.png");
     background-size: cover;
     background-position: center;
-    height: 355px;
+    height: auto;
     width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.hero-txt-container{
-    position: relative;
-    bottom: 50px;
+.herologo-container{
+    margin: 84px auto 48px auto;
+}
+.logo{
+    width: 108px;
+    height: auto;
 }
 .hero-action {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
+
 .btn {
     padding: 15px 38px;
     border: none;
