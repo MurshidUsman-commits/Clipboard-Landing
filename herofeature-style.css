@@ -22,29 +22,39 @@
     justify-content: center;
     gap: 20px;
 }
-
-.btn {
-    padding: 15px 38px;
-    border: none;
-    border-radius: 26px;
-    cursor: pointer;
-    color: rgb(243, 240, 240);
-    font-size: 17px;
-}
-.primary-btn {
-    background-color: hsl(171, 66%, 44%);
-    box-shadow: 0 0 12px hsla(171, 66%, 44%, 0.6);
+.description{
+    max-width: 43rem;
 }
 
-.primary-btn:hover {
-    background-color: hsl(171, 59%, 52%);
-}
+@media (max-width: 768px) {
 
-.secondary-btn {
-    background-color: hsl(233, 100%, 69%);
-    box-shadow: 0 0 12px hsla(233, 100%, 69%, 0.6);
-}
+  .hero-container {
+    background-image: url("./images/bg-header-mobile.png");
+    text-align: center;
+  }
+  body{
+    padding: 0;
+  }
+  .hero-container div{
+      padding: 0 20px;
+      max-width: 18rem;
+  }
+  .logo {
+    width: 90px;
+  }
 
-.secondary-btn:hover {
-    background-color: hsl(233, 96%, 72%);
+  .section-header {
+    margin-bottom: 40px;
+    gap: 16px;
+  }
+
+
+  .hero-action {
+    display: flex;
+    flex-direction: column;   
+    gap: 16px;
+    width: 100%;
+    align-items: center;
+  }
+
 }
