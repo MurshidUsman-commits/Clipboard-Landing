@@ -1,5 +1,10 @@
-.mobile-container{
+.mobile-img {
     display: flex;
-    flex-direction: column;
-    gap: 90px;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .mobile-img img {
+        max-width: 100%;
+    }
 }
