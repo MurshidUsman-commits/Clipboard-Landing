@@ -12,7 +12,6 @@
 
 .mac-container {
     display: flex;
-    flex-direction: row;
 }
 
 .tracking-features {
@@ -21,28 +20,18 @@
     width: 50%;
     box-sizing: border-box;
     gap: 54px;
-    padding: 96px;
-}
-
-.snippet-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.feature-container {
-    display: flex;
-    flex-direction: column;
-    gap: 11px;
+    align-items: center;
+    padding: 80px;
 }
 
 .feature-heading {
     font-weight: 590;
-    font-size: larger;
+    font-size: 24px;
+    margin-bottom: 8px ;
 }
 
-.feature-description {
-    max-width: 21rem;
-    font-size: smaller;
+.feature-description{
+    max-width: 27rem;
 }
 
 @media (max-width:768px) {
@@ -56,6 +45,7 @@
         position: static;
         display: flex;
         justify-content: center;
+        margin-bottom: 48px;
     }
 
     .mac-feature-img {
@@ -65,19 +55,12 @@
     }
 
     .tracking-features {
-        width: 14rem;
-        text-align: center;
-        padding: 48px 0 0 0;
-        gap: 40px;
+        width: 100%;
+        padding: 0;
     }
 
     .feature-description {
         max-width: 100%;
     }
 
-    .title{
-        font-size: 24px;
-        text-align: center;
-        max-width: 100%;
-    }
 }
