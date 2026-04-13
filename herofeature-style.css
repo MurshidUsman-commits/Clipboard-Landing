@@ -28,6 +28,9 @@
 }
 
 @media (max-width: 768px) {
+   body{
+    padding: 0;
+   }
 
   .hero-container {
     background-image: url("./images/bg-header-mobile.png");
