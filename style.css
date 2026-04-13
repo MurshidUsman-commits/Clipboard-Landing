@@ -2,7 +2,8 @@ body {
     font-size: 20px;
     font-family: "Bai Jamjuree";
     line-height: 32px;
-    margin: 0 8px;
+    margin: 0;
+    padding: 0 8px;
 }
 
 .txt-center {
