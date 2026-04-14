@@ -6,6 +6,12 @@ body {
     padding: 0 8px;
 }
 
+.hero-action {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .txt-center {
     text-align: center;
 }
@@ -75,4 +81,11 @@ body {
         width: 90%;
     }
 
+    .hero-action {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+        align-items: center;
+    }
 }
