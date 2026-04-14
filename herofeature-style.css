@@ -18,11 +18,7 @@
     width: 108px;
     height: auto;
 }
-.hero-action {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
+
 .description{
     max-width: 43rem;
 }
@@ -46,12 +42,5 @@
     gap: 16px;
   }
 
-  .hero-action {
-    display: flex;
-    flex-direction: column;   
-    gap: 16px;
-    width: 100%;
-    align-items: center;
-  }
-
+ 
 }
