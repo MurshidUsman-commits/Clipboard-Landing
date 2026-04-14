@@ -1,8 +1,9 @@
 body {
     font-size: 19px;
     font-family: "Bai Jamjuree";
-    margin: 1px 0 0 0;
     line-height: 28px;
+    margin: 0;
+    padding: 0 8px;
 }
 
 .txt-center {
@@ -65,26 +66,17 @@ body {
 @media (max-width: 768px) {
     body {
         margin: 0;
-        font-size: 14px;
-        padding: 0 24px;
-
-    }
-
-    .section-header {
-        max-width: 18rem;
-        margin-right: auto;
-        margin-left: auto;
+        font-size: 16px;
     }
 
     .title {
-        font-size: 28px;
+        font-size: 24px;
+        max-width: 100%;
     }
 
     .btn {
-        width: 100%;
-        max-width: 280px;
-        padding: 14px 0;
+        width: 90%;
     }
 
-
 }
+

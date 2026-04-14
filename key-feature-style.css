@@ -1,23 +1,29 @@
-
 .keyfeature-title {
   font-size: 24px;
   font-weight: 600;
+  margin: 24px 0 16px 0;
 }
 
 .keyfeature-description {
-  font-size: medium;
+max-width: 26rem;  
 }
 
-.keyfeatures {
+.info-box {
   display: flex;
   justify-content: space-around;
+  align-items: baseline;
  
 }
 
 .keyfeature {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 350px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .info-box{
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
 }
 
