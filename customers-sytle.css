@@ -1,0 +1,11 @@
+.customers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customers img {
+    height: 48px;
+    width: auto;
+}
+
