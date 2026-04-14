@@ -1,5 +1,5 @@
 body {
-    font-size: 19px;
+    font-size: 20px;
     font-family: "Bai Jamjuree";
     line-height: 28px;
     margin: 0;
@@ -19,11 +19,6 @@ body {
 }
 
 .section-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 19px;
-    font-size: 700;
     margin-bottom: 72px;
 }
 
@@ -34,6 +29,13 @@ body {
 
 .description {
     max-width: 47rem;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.description {
+    max-width: 48rem;
+    margin: auto;
 }
 
 .btn {
@@ -79,5 +81,3 @@ body {
     }
 
 }
-
-
