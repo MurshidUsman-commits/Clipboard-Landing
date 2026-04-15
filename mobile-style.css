@@ -1,0 +1,10 @@
+.mobile-img {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .mobile-img img {
+        max-width: 100%;
+    }
+}
