@@ -1,5 +1,6 @@
 body {
     margin: 0 -8px;
+    padding: 0;
 }
 
 .footer-container {
@@ -18,7 +19,7 @@ body {
 .footer-links {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-gap: 10px 40px;
+    grid-gap: 20px 40px;
     cursor: pointer;
     color: hsl(201, 11%, 66%);;
 }
@@ -64,4 +65,5 @@ a:hover {
     .social-media{
         gap: 32px;
     }
+    
 }
