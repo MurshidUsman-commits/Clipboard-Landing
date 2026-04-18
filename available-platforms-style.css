@@ -1,0 +1,6 @@
+@media (max-width:500px){
+    .title {
+        max-width: 18rem;
+        margin: auto;
+    }
+}
