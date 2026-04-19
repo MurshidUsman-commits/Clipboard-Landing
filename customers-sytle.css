@@ -5,7 +5,14 @@
 }
 
 .customers img {
-    height: 48px;
+    height: 40px;
     width: auto;
+}
+
+@media (max-width:768px){
+    .customers{
+        flex-direction: column;
+        gap: 72px;
+    }
 }
 
