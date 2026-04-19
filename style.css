@@ -31,11 +31,6 @@ body {
 .title {
     font-weight: 605;
     font-size: 37px;
-}
-
-.description {
-    max-width: 47rem;
-    font-size: 36px;
     margin-bottom: 20px;
 }
 
@@ -82,15 +77,11 @@ body {
         max-width: 100%;
     }
 
-    .btn {
-        width: 90%;
-    }
-
     .hero-action {
         display: flex;
         flex-direction: column;
         gap: 16px;
         width: 100%;
-        align-items: center;
+        align-items: stretch;
     }
 }

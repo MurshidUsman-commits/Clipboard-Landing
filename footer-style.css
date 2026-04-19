@@ -1,18 +1,14 @@
-body {
-    margin: 0 -8px;
-    padding: 0;
-}
-
 .footer-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: hsl(0, 0%, 95%);
     padding: 40px 120px;
+    margin: 0 -8px;
 }
 
 .footer-logo img {
-    width: 50px;
+    width: 80px;
     height: auto;
 }
 
@@ -21,7 +17,7 @@ body {
     grid-template-columns: repeat(3, auto);
     grid-gap: 20px 40px;
     cursor: pointer;
-    color: hsl(201, 11%, 66%);;
+    color: hsl(201, 11%, 66%);
 }
 
 .logo-and-links {
@@ -31,23 +27,20 @@ body {
 
 .social-media {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     cursor: pointer;
 }
 
 a:hover {
     color: hsl(171, 59%, 52%);
-}
-
-.social-media a img:hover {
-    color: hsl(171, 59%, 52%);
+    stroke: hsl(171, 92%, 37%);
 }
 
 @media (max-width:768px) {
     .footer-container {
         flex-direction: column;
         text-align: center;
-        padding: 0;
+        padding: 32px;
         gap: 40px;
     }
 
@@ -62,8 +55,8 @@ a:hover {
         align-items: center;
     }
 
-    .social-media{
+    .social-media {
         gap: 32px;
     }
-    
+
 }
