@@ -3,7 +3,11 @@ body {
     font-family: "Bai Jamjuree";
     line-height: 32px;
     margin: 0;
-    padding: 0 8px;
+    overflow-x: hidden;
+}
+
+section:not(:last-child) {
+    margin: 0 60px 140px 60px;
 }
 
 .hero-action {
@@ -72,6 +76,10 @@ body {
         font-size: 16px;
     }
 
+    section {
+        margin: 0 12px 140px 12px;
+    }
+
     .title {
         font-size: 24px;
         max-width: 100%;
@@ -81,7 +89,7 @@ body {
         display: flex;
         flex-direction: column;
         gap: 16px;
-        width: 100%;
+        width: 90%;
         align-items: stretch;
     }
 }
