@@ -1,0 +1,14 @@
+.mobile-img {
+    display: flex;
+    justify-content: center;
+}
+
+.mobile-img img {
+    max-width: 100%;
+}
+
+@media (min-width: 1540px) {
+    .mobile-container {
+        margin-top: 22rem;
+    }
+}

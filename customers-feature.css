@@ -5,14 +5,13 @@
 }
 
 .customers img {
-    height: 40px;
-    width: auto;
+    height: 2.5rem;
 }
 
 @media (max-width:768px){
     .customers{
         flex-direction: column;
-        gap: 72px;
+        gap: 4.5rem;
     }
 }
 

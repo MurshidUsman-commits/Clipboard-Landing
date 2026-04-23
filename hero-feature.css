@@ -2,45 +2,38 @@
   background-image: url("./images/bg-header-desktop.png");
   background-size: cover;
   background-position: center;
-  height: auto;
-  width: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 0 9rem 0;
 }
 
 .herologo-container {
-  margin: 84px auto 48px auto;
+  margin: 5rem auto 3rem auto;
 }
 
-.logo {
-  width: 108px;
-  height: auto;
+.herologo {
+  width: 7rem;
 }
 
 .description {
   max-width: 43rem;
 }
-
 @media (max-width: 768px) {
- 
-  section {
-    margin: 0 -12px 140px -12px;
-  }
-
   .hero-container {
     background-image: url("./images/bg-header-mobile.png");
-    text-align: center;
+    margin: 0 0px 9rem 0px;
+    padding: 0 0.75rem;
   }
 
-  .logo {
-    width: 90px;
+  .herologo {
+    width: 6rem;
   }
 
   .section-header {
-    margin-bottom: 40px;
-    gap: 16px;
+    margin-bottom: 2.5rem;
+    gap: 1rem;
   }
 
 }
