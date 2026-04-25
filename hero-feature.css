@@ -6,34 +6,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 0 9rem 0;
+  margin: 0 0 8rem 0;
 }
 
 .herologo-container {
-  margin: 5rem auto 3rem auto;
+  margin: 4rem auto 2rem auto;
 }
 
 .herologo-container img {
-  width: 7rem;
+  width: 8rem;
 }
 
-.description {
-  max-width: 43rem;
-}
 @media (max-width: 768px) {
   .hero-container {
     background-image: url("./images/bg-header-mobile.png");
     margin: 0 0px 9rem 0px;
     padding: 0 0.75rem;
-  }
-
-  .herologo {
-    width: 6rem;
-  }
-
-  .section-header {
-    margin-bottom: 2.5rem;
-    gap: 1rem;
   }
 
 }

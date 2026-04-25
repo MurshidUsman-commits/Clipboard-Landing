@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: hsl(0, 0%, 95%);
-    padding: 2.5rem 4rem;
+    padding: 2rem 4rem;
     margin: 0;
 }
 
@@ -15,7 +15,7 @@
 .footer-links {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-gap: 2rem 2.5rem;
+    grid-gap: 0 5rem;
     cursor: pointer;
     color: hsl(201, 11%, 66%);
 }
@@ -27,7 +27,7 @@
 
 .social-media {
     display: flex;
-    gap: 2.5rem;
+    gap: 2rem;
     cursor: pointer;
 }
 
@@ -47,7 +47,7 @@
 
     .logo-and-links {
         flex-direction: column;
-        gap: 2.5rem;
+        gap: 2rem;
     }
 
     .footer-links {

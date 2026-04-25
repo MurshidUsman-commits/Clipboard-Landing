@@ -1,109 +1,112 @@
 body {
-    font-size: 1.25rem;
-    font-family: "Bai Jamjuree";
-    line-height: 2rem;
-    margin: 0;
-    overflow-x: hidden;
+  font-size: 1.25rem;
+  font-family: "Bai Jamjuree";
+  line-height: 2rem;
+  margin: 0;
+  overflow-x: hidden;
 }
 
-section{
-    margin: 0 4rem 9rem 4rem;
+section {
+  margin: 0 4rem 9rem 4rem;
 }
 
 .hero-action {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 .txt-center {
-    text-align: center;
+  text-align: center;
 }
 
 .primary-txt-clr {
-    color: hsl(210, 10%, 33%);
+  color: hsl(210, 10%, 33%);
 }
 
 .secondary-txt-clr {
-    color: hsl(201, 11%, 66%);
+  color: hsl(201, 11%, 66%);
 }
 
 .section-header {
-    margin-bottom: 4.5rem;
+  margin-bottom: 4.5rem;
 }
 
 .title {
-    font-weight: 605;
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+  font-weight: 605;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
 .description {
-    max-width: 48rem;
-    margin: auto;
+  max-width: 48rem;
+  margin: auto;
 }
 
 .section_txt-small .title {
-    font-weight: 590;
-    font-size: 1.5rem;
-    margin-bottom: 1rem ;
-    line-height: 2rem;
+  font-weight: 590;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 2rem;
 }
 
-.section_txt-small .description{
-    max-width: 27rem;
-    font-size: 1.20rem;
+.section_txt-small .description {
+  max-width: 27rem;
+  font-size: 1.2rem;
 }
-
 
 .btn {
-    padding: 1rem 2.5rem;
-    border: none;
-    border-radius: 1.75rem;
-    cursor: pointer;
-    color: rgb(243, 240, 240);
-    font-size: 1.25rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 1.75rem;
+  cursor: pointer;
+  color: rgb(243, 240, 240);
+  font-size: 1.25rem;
 }
 
 .primary-btn {
-    background-color: hsl(171, 66%, 44%);
-    box-shadow: 0 0 12px hsla(171, 66%, 44%, 0.6);
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0 0 12px hsla(171, 66%, 44%, 0.6);
 }
 
 .primary-btn:hover {
-    background-color: hsl(171, 59%, 52%);
+  background-color: hsl(171, 59%, 52%);
 }
 
 .secondary-btn {
-    background-color: hsl(233, 100%, 69%);
-    box-shadow: 0 0 12px hsla(233, 100%, 69%, 0.6);
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0 0 12px hsla(233, 100%, 69%, 0.6);
 }
 
 .secondary-btn:hover {
-    background-color: hsl(233, 96%, 72%);
+  background-color: hsl(233, 96%, 72%);
 }
 
-
 @media (max-width: 768px) {
-    body {
-        margin: 0;
-        font-size: 1rem;
-    }
+  body {
+    margin: 0;
+    font-size: 1rem;
+  }
 
-    section {
-        margin: 0 0.75rem 9rem 0.75rem;
-    }
+  section {
+    margin: 0 0.75rem 9rem 0.75rem;
+  }
 
-    .title {
-        font-size: 1.5rem;
-        max-width: 100%;
-    }
+  .section-header {
+    margin-bottom: 2.5rem;
+    gap: 1rem;
+  }
 
-    .hero-action {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        width: 100%;
-        align-items: stretch;
-    }
+  .title {
+    font-size: 1.5rem;
+    max-width: 100%;
+  }
+
+  .hero-action {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    align-items: stretch;
+  }
 }
