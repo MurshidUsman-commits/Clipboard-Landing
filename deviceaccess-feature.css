@@ -1,0 +1,14 @@
+.device_img-box {
+    display: flex;
+    justify-content: center;
+}
+
+.device_img-box img {
+    max-width: 100%;
+}
+
+@media (min-width: 1540px) {
+    .device_access-container {
+        margin-top: 22rem;
+    }
+}

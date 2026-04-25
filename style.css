@@ -1,15 +1,19 @@
 body {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: "Bai Jamjuree";
-    line-height: 32px;
+    line-height: 2rem;
     margin: 0;
-    padding: 0 8px;
+    overflow-x: hidden;
+}
+
+section{
+    margin: 0 4rem 9rem 4rem;
 }
 
 .hero-action {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1.5rem;
 }
 
 .txt-center {
@@ -25,12 +29,12 @@ body {
 }
 
 .section-header {
-    margin-bottom: 72px;
+    margin-bottom: 4.5rem;
 }
 
 .title {
     font-weight: 605;
-    font-size: 37px;
+    font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
@@ -39,13 +43,26 @@ body {
     margin: auto;
 }
 
+.section_txt-small .title {
+    font-weight: 590;
+    font-size: 1.5rem;
+    margin-bottom: 1rem ;
+    line-height: 2rem;
+}
+
+.section_txt-small .description{
+    max-width: 27rem;
+    font-size: 1.20rem;
+}
+
+
 .btn {
-    padding: 15px 38px;
+    padding: 1rem 2.5rem;
     border: none;
-    border-radius: 26px;
+    border-radius: 1.75rem;
     cursor: pointer;
     color: rgb(243, 240, 240);
-    font-size: 17px;
+    font-size: 1.25rem;
 }
 
 .primary-btn {
@@ -66,21 +83,26 @@ body {
     background-color: hsl(233, 96%, 72%);
 }
 
+
 @media (max-width: 768px) {
     body {
         margin: 0;
-        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    section {
+        margin: 0 0.75rem 9rem 0.75rem;
     }
 
     .title {
-        font-size: 24px;
+        font-size: 1.5rem;
         max-width: 100%;
     }
 
     .hero-action {
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        gap: 1rem;
         width: 100%;
         align-items: stretch;
     }

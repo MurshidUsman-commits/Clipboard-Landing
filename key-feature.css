@@ -1,0 +1,14 @@
+.tool-feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+}
+
+@media (max-width: 768px) {
+  .tool-feature {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+}
